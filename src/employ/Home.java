@@ -12,15 +12,10 @@ public class Home {
 		Scanner s=new Scanner(System.in);
 		
 		EmployDetails employDetails=Utils.getDetails(s.nextInt());
-		
 		try {
 			System.out.println(employDetails.details());
 		} catch (Exception e) {
-			System.out.println("Employ Id Not Found");
+			System.out.println("Employ Id Not Found! ");
 		}
-		
-		
-
 	}
-
 }
